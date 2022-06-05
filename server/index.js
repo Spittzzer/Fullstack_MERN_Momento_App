@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 const CONNECTION_URL =
-  "mongodb+srv://bilel:22580928@cluster0.nqgt1.mongodb.net/?retryWrites=true&w=majority";
+  "secret";
 const PORT = process.env.PORT || 5000;
 
 mongoose
